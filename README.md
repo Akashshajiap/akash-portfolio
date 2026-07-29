@@ -1,137 +1,85 @@
-<div align="center">
+# Akash A P — Portfolio Website Overview 🚀
 
-![Banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Portfolio%20Website%20V2&fontSize=80&animation=fadeIn&fontAlignY=35)
+This repository contains the open-source version of my personal portfolio website.
+Feel free to explore the code and use it for learning and inspiration.
 
-<p align="center">
-  <a href="#features">Features</a> •
-  <a href="#demo">Demo</a> •
-  <a href="#screenshots">Screenshots</a> •
-  <a href="#installation">Installation</a> •
-  <a href="#tech-stack">Tech Stack</a>
-</p>
+---
 
-[![GitHub license](https://img.shields.io/github/license/lohitkolluri/Portfolio?style=flat-square)](LICENSE)
-[![Website](https://img.shields.io/website?style=flat-square&url=https%3A%2F%2Fportfolio-lohit.vercel.app)](https://portfolio-lohit.vercel.app)
-[![Made with React](https://img.shields.io/badge/Made%20with-React-61DAFB?style=flat-square&logo=react)](https://reactjs.org)
+## ⚠️ Usage Notice
 
-<p align="center">A modern, responsive portfolio website showcasing professional experience, projects, and skills. Built with React, Vite, and Tailwind CSS, featuring smooth animations and interactive 3D elements. ✨</p>
+This project is shared for learning purposes only.
 
-</div>
+Please do NOT:
+- Clone or replicate the full website or design
+- Repost it with minor content changes
+- Use this project for commercial/client work
+- Create tutorials or content using this exact project
 
-## ✨ Features
+If you use parts of the code, you must provide proper credit linking back to the original repository.
 
-<div align="center">
+Build your own version — don't just copy.
 
-```mermaid
-mindmap
-  root((Portfolio Website))
-    User Interface
-      Responsive Design
-      Smooth Animations
-      Interactive 3D Elements
-    Sections
-      About Me
-      Experience
-      Projects
-      Contact
-    Technical Features
-      React with Vite
-      Tailwind CSS Styling
-      EmailJS Integration
-    Integrations
-       Email Contact
-      Project Showcase
-```
+— Akash A P
 
-</div>
+---
 
-## 🚀 Demo
+## 🛠️ Instructions
 
-Experience the live portfolio at [https://portfolio-lohit.vercel.app](https://portfolio-lohit.vercel.app)
+This project uses `gsap-trial` plugins (ScrollSmoother, SplitText).
+⚠️ Note: Trial plugins cannot be used for production or hosting.
 
-## 🛠️ Installation
+For official GSAP Club plugins, refer here:
+https://gsap.com/docs/v3/Installation/
 
-1️⃣ Clone the repository:
-
+**Running locally:**
 ```bash
-git clone https://github.com/lohitkolluri/Portfolio-Website
-```
-
-2️⃣ Navigate to project directory:
-
-```bash
-cd Portfolio-Website
-```
-
-3️⃣ Install dependencies:
-
-```bash
+git clone https://github.com/Akashshajiap/akash-portfolio.git
+cd portfolio-main
 npm install
-```
-
-4️⃣ Run development server:
-
-```bash
 npm run dev
 ```
+Open your browser at **http://localhost:5173/akash-portfolio**
 
-5️⃣ Open in browser:
+> If `npm run dev` fails with `'vite' is not recognized` (common on OneDrive / cloud-synced folders), run:
+> ```bash
+> node node_modules/vite/bin/vite.js
+> ```
 
-- Visit [http://localhost:3000](http://localhost:3000)
+---
 
-## 💻 Tech Stack
+## ⚙️ Tech Stack
 
-<table align="center">
-  <tr>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=react" width="48" height="48" alt="React" />
-      <br>React
-    </td>
-      <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=vite" width="48" height="48" alt="Vite" />
-      <br>Vite
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="Tailwind CSS" />
-      <br>Tailwind CSS
-    </td>
-      <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=threejs" width="48" height="48" alt="Three.js" />
-      <br>Three.js
-    </td>
-  </tr>
-</table>
+React • TypeScript • Three.js • @react-three/fiber • @react-three/drei • @react-three/rapier • GSAP (ScrollTrigger, ScrollSmoother, SplitText) • Vite • Vanilla CSS
 
-## ⚡ Core Features
+---
 
-- 📱 Responsive Design
+## 🎨 Assets Usage
 
-  - Mobile-first approach
-  - Seamless experience across all devices
-  - Adaptive layouts and components
+Some 3D assets included in this repository are free to use for learning purposes.
 
-- 🎯 Dynamic Content
+However:
 
-  - Interactive project showcase
-  - Engaging experience section
-  - Animated skill representations
+- The original 3D avatar used on my live portfolio is NOT included in this repository
+- That avatar is a custom asset created over ~1 month
+- It is not open source and not available for reuse
 
-- 🎨 Modern UI/UX
+Any usage, extraction, or redistribution of that avatar from my live website is strictly prohibited.
 
-  - Smooth Framer Motion animations
-  - Intuitive navigation
-  - Clean and professional design
-  - Interactive 3D elements using Three.js
+---
 
-- ✉️ Email Integration
-  - Contact form using EmailJS
+## 👤 About Me
+
+**Akash A P** — Financial & Commercial Data Analyst with 1+ year of experience in financial reporting, revenue analysis, and business process improvement. Skilled in building live KPI dashboards, automating data pipelines, and transforming complex datasets into actionable insights.
+
+- 📧 akashshajiap2003@gmail.com
+- 📞 +91 7510956964
+- 🔗 [LinkedIn](https://linkedin.com/in/akash-a-p-934889315)
+- 🐙 [GitHub](https://github.com/Akashshajiap)
+
+---
 
 ## 📄 License
 
-<div align="center">
+This project is licensed under the Personal Portfolio License (PPL) v1.0.
 
-MIT License © [Lohit Kolluri](LICENSE)
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%"/>
-
-</div>
+See the [LICENSE](./LICENSE) file for full details.
