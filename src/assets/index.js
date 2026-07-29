@@ -36,7 +36,6 @@ import close from "./close.svg";
 export {
   mathwork,
   edunet,
-  eduskill,
   python,
   c,
   cpp,
