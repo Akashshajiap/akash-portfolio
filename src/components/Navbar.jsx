@@ -63,7 +63,7 @@ const Navbar = () => {
           >
             <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
             <p className="text-white text-[20px] font-bold cursor-pointer flex">
-              AKASH&nbsp;
+              AKASH &nbsp;
               <span className="sm:block hidden">A P</span>
             </p>
           </Link>
