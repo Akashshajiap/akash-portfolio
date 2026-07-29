@@ -1,15 +1,3 @@
-<div align="center">
-
-![Banner](https://Akashshajiap.github.io/akash-portfolio/")
-
-<p align="center">
-  <a href="#features">Features</a> •
-  <a href="#demo">Demo</a> •
-  <a href="#screenshots">Screenshots</a> •
-  <a href="#installation">Installation</a> •
-  <a href="#tech-stack">Tech Stack</a>
-</p>
-
 # Akash A P — Portfolio Website Overview 🚀
 
 This repository contains the open-source version of my personal portfolio website.
