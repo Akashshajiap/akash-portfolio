@@ -4,15 +4,11 @@ import { close, menu } from '../assets';
 import { profileLogo}  from '../assets';
 import { navLinks } from '../constants';
 import { styles } from '../styles';
+import resumePdf from '../assets/Resume.pdf';
 
 const Navbar = () => {
   const [active, setActive] = useState('');
   const [toggle, setToggle] = useState(false);
-
-  const toggleResume = () => {
-    const resumeUrl = '/Resume.pdf';
-    window.open(resumeUrl);
-  };
 
   useEffect(() => {
     if (toggle) {
@@ -43,7 +39,7 @@ const Navbar = () => {
           isSecondary ? 'secondary' : 'white'
         } hover:text-white text-[20px] font-medium cursor-pointer`}
       >
-        <button onClick={toggleResume}>Resume</button>
+        <a href={resumePdf} target="_blank" rel="noopener noreferrer">Resume</a>
       </li>
     </ul>
   );

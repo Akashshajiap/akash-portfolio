@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
-import { About, Contact, Experience, Hero, Navbar, StarsCanvas, Tech, Works } from './components';
+import { About, Contact, Experience, Hero, Navbar, StarsCanvas, Tech, Works, SocialLinks } from './components';
 
 const App = () => {
   return (
@@ -11,6 +11,7 @@ const App = () => {
       }}
     >
       <div className="relative z-0 bg-primary">
+        <SocialLinks />
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
           <Hero />

@@ -103,7 +103,12 @@ const Contact = () => {
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact Me</h3>
 
-        <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col gap-8">
+        <div className="mt-4 text-secondary text-[17px] flex flex-col gap-2">
+          <p>Email: <a href="mailto:akashshajiap2003@gmail.com" className="text-white hover:underline">akashshajiap2003@gmail.com</a></p>
+          <p>Phone: <a href="tel:+917510956964" className="text-white hover:underline">+91 7510956964</a></p>
+        </div>
+
+        <form ref={formRef} onSubmit={handleSubmit} className="mt-8 flex flex-col gap-8">
           <InputField
             label="Your Name"
             name="name"

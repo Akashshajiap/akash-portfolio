@@ -1,63 +1,58 @@
 // Import company logos
-import mathwork from "./company/mathwork.png";
-import edunet from "./company/edunet.png";
-import eduskill from "./company/eduskill.png";
+import western_trade_links from "./company/western_trade_links.png";
+import qis_academy from "./company/qis_academy.png";
 
-// Import tech stack images
-import python from "./tech-stack/python.png";
-import c from "./tech-stack/c.png";
-import cpp from "./tech-stack/cpp.png";
-import java from "./tech-stack/java.png";
+// Import tech stack images & tech logos
+import python from "./tech/python.png";
+import sql from "./tech/sql.png";
+import excel from "./tech/excel.png";
+import powerbi from "./tech/powerbi.png";
+import tableau from "./tech/tableau.png";
+import django from "./tech/django.png";
+import git from "./tech/git.png";
+import rlang from "./tech/rlang.png";
+import genai from "./tech/genai.png";
+import budget from "./tech/budget.png";
+import mongodb from "./tech/mongodb.png";
+import reactjs from "./tech/reactjs.png";
 
 // Import project images
-import weatherpedia from "./projects/WeatherPedia.png";
-import termpw from "./projects/termpw.png";
-import payloadmaster from "./projects/payloadmaster.png";
-import mhft from "./projects/mhft.png";
-import sketcher from "./projects/sketcher.png";
-import CompileVortex from "./projects/CompileVortex.png";
-
-// Import tech logos
-import css from "./tech/css.png";
-import git from "./tech/git.png";
-import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
-import nodejs from "./tech/nodejs.png";
-import reactjs from "./tech/reactjs.png";
-import tailwind from "./tech/tailwind.png";
-import threejs from "./tech/threejs.png";
+import smart_health from "./projects/smart_health.png";
+import retail_sales from "./projects/retail_sales.png";
+import financial_reporting from "./projects/financial_reporting.png";
+import data_pipeline from "./projects/data_pipeline.png";
+import customer_segmentation from "./projects/customer_segmentation.png";
+import ap_ar_reconciliation from "./projects/ap_ar_reconciliation.png";
 
 // Import common assets
-//import logo from "./logo.svg";
 import profileLogo from "./profileLogo.svg";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
 export {
-  mathwork,
-  edunet,
+  western_trade_links,
+  qis_academy,
   python,
-  c,
-  cpp,
-  java,
-  github,
-  css,
+  sql,
+  excel,
+  powerbi,
+  tableau,
+  django,
   git,
-  html,
-  javascript,
-  nodejs,
+  rlang,
+  genai,
+  budget,
+  mongodb,
   reactjs,
-  tailwind,
-  threejs,
-  weatherpedia,
-  termpw,
-  payloadmaster,
-  mhft,
-  sketcher,
-  CompileVortex,
+  smart_health,
+  retail_sales,
+  financial_reporting,
+  data_pipeline,
+  customer_segmentation,
+  ap_ar_reconciliation,
   profileLogo,
+  github,
   menu,
   close,
-  eduskill,
 };

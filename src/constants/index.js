@@ -1,15 +1,24 @@
 import {
-  c,
+  western_trade_links,
+  qis_academy,
   python,
-  java,
-  cpp,
-  javascript,
-  html,
-  css,
-  reactjs,
-  tailwind,
-  nodejs,
+  sql,
+  excel,
+  powerbi,
+  tableau,
+  django,
   git,
+  smart_health,
+  retail_sales,
+  financial_reporting,
+  data_pipeline,
+  customer_segmentation,
+  ap_ar_reconciliation,
+  rlang,
+  genai,
+  budget,
+  mongodb,
+  reactjs,
 } from "../assets";
 
 export const navLinks = [
@@ -28,28 +37,60 @@ export const navLinks = [
 ];
 
 export const services = [
-  { title: "Financial Analytics", icon: python },
-  { title: "Power BI & Tableau", icon: reactjs },
-  { title: "SQL & Data Pipelines", icon: nodejs },
-  { title: "Financial Reporting", icon: git },
+  {
+    title: "Financial Analytics",
+    icon: python,
+    tags: ["#Python", "#EDA", "#Pandas", "#NumPy"],
+  },
+  {
+    title: "Power BI & Tableau",
+    icons: [powerbi, tableau],
+    tags: ["#PowerBI", "#Tableau", "#KPI Dashboards", "#Data Viz"],
+  },
+  {
+    title: "SQL & Data Pipelines",
+    icon: sql,
+    tags: ["#SQL", "#MySQL", "#PostgreSQL", "#ETL"],
+  },
+  {
+    title: "Financial Reporting",
+    icon: excel,
+    tags: ["#Excel", "#P&L", "#Balance Sheet", "#GST"],
+  },
+  {
+    title: "Budget & Forecasting",
+    icon: budget,
+    tags: ["#Budgeting", "#Forecasting", "#Variance Analysis"],
+  },
+  {
+    title: "Gen AI & Automation",
+    icon: genai,
+    tags: ["#GenAI", "#Automation", "#Prompt Eng."],
+  },
+  {
+    title: "R Language & Stats",
+    icon: rlang,
+    tags: ["#R", "#Statistical Analysis", "#ggplot2"],
+  },
 ];
 
 export const technologies = [
   { name: "Python", icon: python },
-  { name: "SQL", icon: nodejs },
-  { name: "Excel (Advanced)", icon: html },
-  { name: "Power BI", icon: reactjs },
-  { name: "Tableau", icon: tailwind },
-  { name: "JavaScript", icon: javascript },
-  { name: "CSS 3", icon: css },
-  { name: "git", icon: git },
+  { name: "SQL", icon: sql },
+  { name: "Excel (Advanced)", icon: excel },
+  { name: "Power BI", icon: powerbi },
+  { name: "Tableau", icon: tableau },
+  { name: "Django", icon: django },
+  { name: "MongoDB", icon: mongodb },
+  { name: "React", icon: reactjs },
+  { name: "Git", icon: git },
 ];
 
 export const experiences = [
   {
     title: "Data Analytics Intern",
     company_name: "QIS Academy",
-    icon: python,
+    icon: qis_academy,
     iconBg: "#161329",
     date: "April 2026 - Present",
     points: [
@@ -62,7 +103,7 @@ export const experiences = [
   {
     title: "Junior Accountant",
     company_name: "Western Trade Links — Kannur, Kerala, India",
-    icon: git,
+    icon: western_trade_links,
     iconBg: "#161329",
     date: "December 2024 - March 2026",
     points: [
@@ -87,21 +128,21 @@ export const projects = [
       { name: "Machine Learning", color: "pink-text-gradient" },
       { name: "Data Pipeline", color: "yellow-text-gradient" },
     ],
-    image: python,
-    source_code_link: "https://github.com/Akashshajiap",
+    image: smart_health,
+    source_code_link: "https://github.com/Akashshajiap/Akash-A-P",
   },
   {
-    name: "Interactive Power BI & Tableau KPI Dashboards",
+    name: "Retail Sales Excel Dashboard",
     description:
-      "Built live self-service KPI dashboards replacing static spreadsheet reports, improving stakeholder reporting turnaround by 45%.",
+      "Built an interactive, self-service Excel dashboard to analyze and visualize retail sales data, replacing static reports and significantly improving stakeholder reporting turnaround.",
     tags: [
-      { name: "Power BI", color: "blue-text-gradient" },
-      { name: "Tableau", color: "green-text-gradient" },
-      { name: "SQL", color: "pink-text-gradient" },
+      { name: "Excel", color: "blue-text-gradient" },
+      { name: "Data Analysis", color: "green-text-gradient" },
+      { name: "Dashboards", color: "pink-text-gradient" },
       { name: "KPI Reporting", color: "yellow-text-gradient" },
     ],
-    image: reactjs,
-    source_code_link: "https://github.com/Akashshajiap",
+    image: retail_sales,
+    source_code_link: "https://github.com/Akashshajiap/Retail-Sales-Excel-Dashboard",
   },
   {
     name: "Financial Reporting & GST Compliance System",
@@ -112,7 +153,7 @@ export const projects = [
       { name: "Financial Modeling", color: "green-text-gradient" },
       { name: "GST Compliance", color: "pink-text-gradient" },
     ],
-    image: nodejs,
+    image: financial_reporting,
     source_code_link: "https://github.com/Akashshajiap",
   },
   {
@@ -124,8 +165,31 @@ export const projects = [
       { name: "pandas / NumPy", color: "green-text-gradient" },
       { name: "EDA & Statistics", color: "pink-text-gradient" },
     ],
-    image: git,
+    image: data_pipeline,
+    source_code_link: "https://github.com/Akashshajiap",
+  },
+  {
+    name: "Customer Segmentation & Churn Analysis",
+    description:
+      "Developed a K-Means clustering model in Python to segment customers and predict churn, visualizing findings in Tableau to drive retention strategies.",
+    tags: [
+      { name: "Python", color: "blue-text-gradient" },
+      { name: "Machine Learning", color: "green-text-gradient" },
+      { name: "Tableau", color: "pink-text-gradient" },
+    ],
+    image: customer_segmentation,
+    source_code_link: "https://github.com/Akashshajiap",
+  },
+  {
+    name: "Automated AP/AR Reconciliation Tool",
+    description:
+      "Engineered an automated Python-based tool linking SQL databases with Excel to reconcile Accounts Payable and Receivable, cutting manual matching time by 60%.",
+    tags: [
+      { name: "Python", color: "blue-text-gradient" },
+      { name: "SQL", color: "green-text-gradient" },
+      { name: "Excel VBA", color: "pink-text-gradient" },
+    ],
+    image: ap_ar_reconciliation,
     source_code_link: "https://github.com/Akashshajiap",
   },
 ];
-
