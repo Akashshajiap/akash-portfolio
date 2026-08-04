@@ -7,7 +7,7 @@ const App = () => {
   return (
     <ReactLenis root options={{ lerp: 0.05, duration: 1.5, smoothTouch: true }}>
       <BrowserRouter
-        basename="/akash-portfolio/"
+        basename={import.meta.env.BASE_URL}
         future={{
           v7_startTransition: true,
           v7_relativeSplatPath: true,
